@@ -3,7 +3,7 @@ title: Homie
 name: Curno
 email: curno_homie@163.com
 description: >
-    网络小家记录了生活点滴，大到人生感悟、岁月流年，小到技术杂谈、吐槽调侃，任何值得记录的，希望记住的。
+    这里记录了生活点滴，大到人生感悟、岁月流年，小到技术杂谈、吐槽调侃，任何值得记录的，希望记住的。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username: curno 
