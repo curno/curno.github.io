@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "偏爱命令行的世界"
-subtitle: "《Unix 编程艺术》 读书心得 (一)"
-author: Curno
-category: Reading
-tags: Unix Linux
-finished: true
+description: "《Unix 编程艺术》 读书心得 (一)"
+tags: [Unix Linux]
 ---
 
 
