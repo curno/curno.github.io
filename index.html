@@ -34,10 +34,8 @@ image:
     {% assign character_count = post.content | strip_html | size %}
       {% if character_count >= 750 %}
   	<div class="entry-content">
-	        {{ post.content | truncatewords:12 }}
+	        {{ post.content | split:"<!-- brief-remark -->" | first }}
   	</div><!-- /.entry-content -->
-
-	<br/>
 	<div>
         <a href="{{ site.baseurl }}{{ post.url}}">阅读全文</a>
 	</div>
