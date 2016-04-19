@@ -2,7 +2,7 @@
 layout: post
 title: "偏爱命令行的世界"
 description: "《Unix 编程艺术》 读书心得 (一)"
-tags: Unix Linux
+tags: Unix Linux 读书笔记
 image:
   feature: taoup.png
 ---

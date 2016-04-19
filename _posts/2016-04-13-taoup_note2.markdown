@@ -2,7 +2,7 @@
 layout: post
 title: "软件的复杂度"
 description: "《Unix 编程艺术》 读书心得 (三)"
-tags: Unix Linux Design
+tags: Unix Linux Design 读书笔记
 image:
     feature: taoup.png
 ---

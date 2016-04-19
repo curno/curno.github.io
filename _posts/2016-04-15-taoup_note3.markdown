@@ -2,7 +2,7 @@
 layout: post
 title: "软件优化"
 description: "《Unix 编程艺术》 读书心得 (四)"
-tags: Unix Linux Optmization
+tags: Unix Linux Optmization 读书笔记
 image:
     feature: taoup.png
 ---

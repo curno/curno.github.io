@@ -2,7 +2,7 @@
 layout: post
 title: "UNIX为软件设计带来的启发"
 description: "《Unix 编程艺术》 读书心得 (二)"
-tags: Unix Linux Design
+tags: Unix Linux Design 读书笔记
 image:
     feature: taoup.png
 ---
