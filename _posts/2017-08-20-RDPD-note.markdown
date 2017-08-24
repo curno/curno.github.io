@@ -4,7 +4,7 @@ title: "理财入门思维"
 description: "《Rich Dad, Poor Dad》读后感"
 tags: 读书笔记 no-tech
 image:
-  feature:
+  feature: RDPD_cover.png
 ---
 
 最近看了一本讲财富观的书，《富爸爸穷爸爸》。这是一本理财入门书，主要面向的是理财小白，就像我这样的。作者是一个以理财为职业的人，白手起家，通过搞房地产和股票赚得了几千万的资产，并在47岁达到财务自由，选择了退休。
