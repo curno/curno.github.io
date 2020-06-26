@@ -1,0 +1,2 @@
+{% assign readtime = post.content | strip_html | size | divided_by:site.words_per_minute %}
+阅读用时约{% if readtime <= 1 %} 1 分钟{% else %} {{ readtime }} 分钟{% endif %}

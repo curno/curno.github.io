@@ -1,0 +1,237 @@
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.1_2/lib/ruby/2.7.0 -r ./siteconf20200625-16272-1i08n0t.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c
+make "DESTDIR="
+Configuring libffi
+clang: error: unsupported option '-print-multi-os-directory'
+clang: error: no input files
+cd "/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi-x86_64-darwin18" && /Applications/Xcode.app/Contents/Developer/usr/bin/make
+/Applications/Xcode.app/Contents/Developer/usr/bin/make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "MAKEINFO=/bin/sh /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=clang" "CXX=c++" "LD=ld" "NM=/usr/bin/nm -B" "RANLIB=ranlib" "DESTDIR=" all-recursive
+Making all in include
+make[3]: Nothing to be done for `all'.
+Making all in testsuite
+make[3]: Nothing to be done for `all'.
+Making all in man
+make[3]: Nothing to be done for `all'.
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/debug.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/debug.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/debug.c  -fno-common -DPIC -o src/.libs/debug.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/prep_cif.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/prep_cif.c  -fno-common -DPIC -o src/.libs/prep_cif.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/types.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/types.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/types.c  -fno-common -DPIC -o src/.libs/types.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/raw_api.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/raw_api.c  -fno-common -DPIC -o src/.libs/raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/java_raw_api.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/java_raw_api.c  -fno-common -DPIC -o src/.libs/java_raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/closures.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/closures.c  -fno-common -DPIC -o src/.libs/closures.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/x86/ffi.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/ffi.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/ffi.c  -fno-common -DPIC -o src/x86/.libs/ffi.o
+/bin/sh ./libtool   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -c -o src/x86/darwin.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/darwin.S
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/darwin.S  -fno-common -DPIC -o src/x86/.libs/darwin.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/x86/ffi64.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/ffi64.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/ffi64.c  -fno-common -DPIC -o src/x86/.libs/ffi64.o
+/bin/sh ./libtool   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src  -c -o src/x86/darwin64.lo /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/darwin64.S
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -I. -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/include -Iinclude -I/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src -c /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/src/x86/darwin64.S  -fno-common -DPIC -o src/x86/.libs/darwin64.o
+/bin/sh ./libtool --tag=CC   --mode=link clang -g  -Wall -fexceptions -version-info `grep -v '^#' /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/libtool-version`    -o libffi.la -rpath /usr/local/lib src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo      src/x86/ffi.lo src/x86/darwin.lo src/x86/ffi64.lo src/x86/darwin64.lo                      
+libtool: link: clang -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libffi.5.dylib  src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/darwin.o src/x86/.libs/ffi64.o src/x86/.libs/darwin64.o      -install_name  /usr/local/lib/libffi.5.dylib -compatibility_version 6 -current_version 6.10 -Wl,-single_module
+ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+libtool: link: (cd ".libs" && rm -f "libffi.dylib" && ln -s "libffi.5.dylib" "libffi.dylib")
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+/bin/sh ./libtool --tag=CC   --mode=link clang -g  -Wall -fexceptions   -o libffi_convenience.la  src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo      src/x86/ffi.lo src/x86/darwin.lo src/x86/ffi64.lo src/x86/darwin64.lo                      
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/darwin.o src/x86/.libs/ffi64.o src/x86/.libs/darwin64.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(ffi.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(darwin.o) has no symbols
+libtool: link: ranlib .libs/libffi_convenience.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(ffi.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(darwin.o) has no symbols
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+Call.c:368:5: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+    rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+    ^
+./Thread.h:78:39: note: expanded from macro 'rbffi_thread_blocking_region'
+# define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                      ^
+Call.c:422:20: warning: incompatible pointer types passing 'VALUE (void *)' (aka 'unsigned long (void *)') to parameter of type 'VALUE (*)(VALUE)' (aka 'unsigned long (*)(unsigned long)') [-Wincompatible-pointer-types]
+        rb_rescue2(do_blocking_call, (VALUE) bc, save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+                   ^~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:25: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                        ^
+Call.c:422:50: warning: incompatible pointer types passing 'VALUE (void *, VALUE)' (aka 'unsigned long (void *, unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+        rb_rescue2(do_blocking_call, (VALUE) bc, save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+                                                 ^~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:47: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                                              ^
+3 warnings generated.
+compiling ClosurePool.c
+compiling DataConverter.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+        rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+        ^
+Function.c:737:16: warning: incompatible pointer types passing 'VALUE (void *)' (aka 'unsigned long (void *)') to parameter of type 'VALUE (*)(VALUE)' (aka 'unsigned long (*)(unsigned long)') [-Wincompatible-pointer-types]
+    rb_rescue2(invoke_callback, (VALUE) data, save_callback_exception, (VALUE) data, rb_eException, (VALUE) 0);
+               ^~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:25: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                        ^
+Function.c:737:47: warning: incompatible pointer types passing 'VALUE (void *, VALUE)' (aka 'unsigned long (void *, unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+    rb_rescue2(invoke_callback, (VALUE) data, save_callback_exception, (VALUE) data, rb_eException, (VALUE) 0);
+                                              ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:47: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                                              ^
+Function.c:838:21: warning: expression result unused [-Wunused-value]
+    RB_GC_GUARD_PTR(rbParams);
+                    ^~~~~~~~
+./compat.h:79:31: note: expanded from macro 'RB_GC_GUARD_PTR'
+#  define RB_GC_GUARD_PTR(x) (x)
+                              ^
+4 warnings generated.
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+LongDouble.c:19:59: warning: incompatible pointer types passing 'VALUE (VALUE)' (aka 'unsigned long (unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+        rb_cBigDecimal = rb_rescue(bigdecimal_load, Qnil, bigdecimal_failed, rb_cObject);
+                                                          ^~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1987:46: note: passing argument to parameter here
+VALUE rb_rescue(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE);
+                                             ^
+1 warning generated.
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+MethodHandle.c:233:21: warning: expression result unused [-Wunused-value]
+    RB_GC_GUARD_PTR(argv);
+                    ^~~~
+./compat.h:79:31: note: expanded from macro 'RB_GC_GUARD_PTR'
+#  define RB_GC_GUARD_PTR(x) (x)
+                              ^
+1 warning generated.
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByReference.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.bundle
+ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c
+make "DESTDIR=" install
+cd "/Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi-x86_64-darwin18" && /Applications/Xcode.app/Contents/Developer/usr/bin/make
+/Applications/Xcode.app/Contents/Developer/usr/bin/make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "MAKEINFO=/bin/sh /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/ffi-1.9.10/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=clang" "CXX=c++" "LD=ld" "NM=/usr/bin/nm -B" "RANLIB=ranlib" "DESTDIR=" all-recursive
+Making all in include
+make[3]: Nothing to be done for `all'.
+Making all in testsuite
+make[3]: Nothing to be done for `all'.
+Making all in man
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+Call.c:368:5: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+    rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+    ^
+./Thread.h:78:39: note: expanded from macro 'rbffi_thread_blocking_region'
+# define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                      ^
+Call.c:422:20: warning: incompatible pointer types passing 'VALUE (void *)' (aka 'unsigned long (void *)') to parameter of type 'VALUE (*)(VALUE)' (aka 'unsigned long (*)(unsigned long)') [-Wincompatible-pointer-types]
+        rb_rescue2(do_blocking_call, (VALUE) bc, save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+                   ^~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:25: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                        ^
+Call.c:422:50: warning: incompatible pointer types passing 'VALUE (void *, VALUE)' (aka 'unsigned long (void *, unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+        rb_rescue2(do_blocking_call, (VALUE) bc, save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+                                                 ^~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:47: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                                              ^
+3 warnings generated.
+compiling ClosurePool.c
+compiling DataConverter.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+        rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+        ^
+Function.c:737:16: warning: incompatible pointer types passing 'VALUE (void *)' (aka 'unsigned long (void *)') to parameter of type 'VALUE (*)(VALUE)' (aka 'unsigned long (*)(unsigned long)') [-Wincompatible-pointer-types]
+    rb_rescue2(invoke_callback, (VALUE) data, save_callback_exception, (VALUE) data, rb_eException, (VALUE) 0);
+               ^~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:25: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                        ^
+Function.c:737:47: warning: incompatible pointer types passing 'VALUE (void *, VALUE)' (aka 'unsigned long (void *, unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+    rb_rescue2(invoke_callback, (VALUE) data, save_callback_exception, (VALUE) data, rb_eException, (VALUE) 0);
+                                              ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1988:47: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                                              ^
+Function.c:838:21: warning: expression result unused [-Wunused-value]
+    RB_GC_GUARD_PTR(rbParams);
+                    ^~~~~~~~
+./compat.h:79:31: note: expanded from macro 'RB_GC_GUARD_PTR'
+#  define RB_GC_GUARD_PTR(x) (x)
+                              ^
+4 warnings generated.
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+LongDouble.c:19:59: warning: incompatible pointer types passing 'VALUE (VALUE)' (aka 'unsigned long (unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+        rb_cBigDecimal = rb_rescue(bigdecimal_load, Qnil, bigdecimal_failed, rb_cObject);
+                                                          ^~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.7.1_2/include/ruby-2.7.0/ruby/ruby.h:1987:46: note: passing argument to parameter here
+VALUE rb_rescue(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE);
+                                             ^
+1 warning generated.
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+MethodHandle.c:233:21: warning: expression result unused [-Wunused-value]
+    RB_GC_GUARD_PTR(argv);
+                    ^~~~
+./compat.h:79:31: note: expanded from macro 'RB_GC_GUARD_PTR'
+#  define RB_GC_GUARD_PTR(x) (x)
+                              ^
+1 warning generated.
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByReference.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.bundle
+ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20200625-16272-1cfyuss

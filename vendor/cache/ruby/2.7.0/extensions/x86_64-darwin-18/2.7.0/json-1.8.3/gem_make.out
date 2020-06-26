@@ -1,0 +1,20 @@
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/json-1.8.3/ext/json/ext/generator
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.1_2/lib/ruby/2.7.0 -r ./siteconf20200625-16272-1e1lsjr.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/json-1.8.3/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /Users/Curno/Documents/Projects/curno.github.io/vendor/cache/ruby/2.7.0/gems/json-1.8.3/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+generator.c:861:25: error: use of undeclared identifier 'rb_cFixnum'
+    } else if (klass == rb_cFixnum) {
+                        ^
+generator.c:863:25: error: use of undeclared identifier 'rb_cBignum'
+    } else if (klass == rb_cBignum) {
+                        ^
+2 errors generated.
+make: *** [generator.o] Error 1
+
+make failed, exit code 2
