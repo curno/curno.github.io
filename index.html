@@ -1,6 +1,6 @@
 ---
 layout: post-index
-title: 技术所思所想
+title: 一些有关技术的碎碎念
 description: ""
 tags: []
 comments: false
@@ -31,9 +31,11 @@ image:
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
+  {% if post.description %}
   <div class="entry-content">
-    {{ post.content }}
+    {{ post.description }}
   </div><!-- /.entry-content -->
+  {% endif %}
 </article><!-- /.hentry -->
 {% endfor %}
 
