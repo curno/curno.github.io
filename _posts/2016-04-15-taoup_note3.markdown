@@ -2,7 +2,7 @@
 layout: post
 title: "软件优化"
 description: "《Unix 编程艺术》 读书心得 (四)"
-tags: Unix Linux Optmization 读书笔记
+tags: [Unix Linux Optmization 读书笔记]
 image:
     feature: taoup.png
 ---
@@ -41,4 +41,3 @@ image:
 > 永远不要讲核心数据结构和时间关键循环抛出缓存
 
 这里的缓存作者主要指CPU级别的缓存。在现代开发语言中，开发者不会直接控制CPU缓存的管理，此项工作往往由编译器完成。因此，除非别无它发，不要试图应用此条，原因很明显，将会损失可移植性并引入BUG。
-

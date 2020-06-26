@@ -2,7 +2,7 @@
 layout: post
 title: "矩阵变换和坐标系"
 description: ""
-tags: transformation-matrix coordinate-system mathematics theory
+tags: [mathematics theory]
 ---
 
 最近抽空尝试了MAC OS X下神奇效果的实现，基本的思想是将`UIView`截图之后，对渲染区域计算三次贝塞尔曲线的三角形逼近，使用`OpenGL`进行三角形渲染。
@@ -28,11 +28,11 @@ tags: transformation-matrix coordinate-system mathematics theory
 #### 多次变换
 
 一个齐次坐标可以进行多次变换，这种情况下可以将最终的变换矩阵表示出分步变换的变换矩阵相乘的形式:
-    
+
     P' = M1 * M2 * P
 
 对于多次变换，矩阵相乘的顺序是重要的，比如说一个点首先平移后旋转，与先旋转后平移，最终的位置很有可能是不同的，（从数学的角度讲，矩阵相乘没有交换律）。根据使用的编程接口的定义，有时候可以预先创建出相乘的变换矩阵，后对点进行变换（从数学的角度讲，矩阵相乘满足结合律），例如对于上述的式子，可以通过以下方式计算最终的变换矩阵：
-    
+
     M = M2
     M = transform M2 with M1
 
@@ -63,16 +63,3 @@ tags: transformation-matrix coordinate-system mathematics theory
     projectionMatrix = GLKMatrix4Scale(projectionMatrix, 2 / w, 2 / h, 1.0); // 缩放坐标系精度
 
 经过这样的变换，就可以在接口中使用熟悉的`UIView`坐标系中的坐标了。
-
-
-
-
-
-
-
-
-
-
-
-
-
