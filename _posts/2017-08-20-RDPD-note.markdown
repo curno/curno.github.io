@@ -2,7 +2,7 @@
 layout: post
 title: "理财入门思维"
 description: "《Rich Dad, Poor Dad》读后感"
-tags: [读书笔记 no-tech]
+tags: [读书笔记]
 image:
   feature: RDPD_cover.png
 ---

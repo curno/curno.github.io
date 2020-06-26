@@ -2,7 +2,7 @@
 layout: post
 title: "矩阵变换和坐标系"
 description: ""
-tags: [mathematics theory]
+tags: [mathematics, theory, graphics]
 ---
 
 最近抽空尝试了MAC OS X下神奇效果的实现，基本的思想是将`UIView`截图之后，对渲染区域计算三次贝塞尔曲线的三角形逼近，使用`OpenGL`进行三角形渲染。
