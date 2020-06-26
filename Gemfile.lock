@@ -67,8 +67,8 @@ GEM
       jekyll (~> 3.0)
     octopress-hooks (2.6.1)
       jekyll (>= 2.0)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    rack (1.6.13)
+    rack-protection (1.5.5)
       rack
     rack-ssl-enforcer (0.2.9)
     rake (10.5.0)
